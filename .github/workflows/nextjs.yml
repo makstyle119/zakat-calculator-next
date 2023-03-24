@@ -94,4 +94,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
       - name: deplor
-        run: npm run build
+        run: npm run dev
