@@ -1,7 +1,6 @@
 'use client';
 import { useState } from 'react';
 import { Inter } from 'next/font/google';
-import IndexPage from './IndexPage';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -20,7 +19,6 @@ export default function Home() {
 	};
 	return (
 		<>
-			<IndexPage />
 			<h1>Zakat Calculator App</h1>
 			<form>
 				<label htmlFor='income'>Total Income:</label>
